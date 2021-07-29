@@ -1,0 +1,22 @@
+use empleados
+
+db.createCollection("empleados")
+
+db.empleados.insertOne({"DNI":"462158B","Nombre":"Nombre","Apellidos":"Apellidos"})
+
+db.empleados.insertOne({"DNI":"462158C","Nombre":"Nombre2","Apellidos":"Apellidos2"})
+
+db.empleados.insertOne({"DNI":"462158D","Nombre":"Nombre3","Apellidos":"Apellidos3"})
+
+db.empleados.insertOne({"DNI":"462158F","Nombre":"Nombre4","Apellidos":"Apellidos4"})
+
+db.createCollection("departamentos")
+
+db.departamentos.insertOne({"codigo":"45","Nombre":"Nombre1","Presupuesto":"10000"})
+
+db.departamentos.insertOne({"codigo":"46","Nombre":"Nombre2","Presupuesto":"12000"})
+
+db.departamentos.insertOne({"codigo":"47","Nombre":"Nombre3","Presupuesto":"15000"})
+
+
+

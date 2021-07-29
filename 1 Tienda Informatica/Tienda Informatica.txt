@@ -1,0 +1,17 @@
+use tiendaInformatica
+
+db.createCollection("fabricantes")
+
+db.fabricantes.insertOne({"Codigo":"12","Nombre":"Nombre"})
+
+db.fabricantes.insertOne({"Codigo":"13","Nombre":"Nombre2"})
+
+db.fabricantes.insertOne({"Codigo":"14","Nombre":"Nombre3"})
+
+db.createCollection("articulos")
+
+db.articulos.insertOne({"Codigo":"14","Nombre":"Nombre","Precio":"50"})
+
+db.articulos.insertOne({"Codigo":"15","Nombre":"Nombre2","Precio":"54"})
+
+db.articulos.insertOne({"Codigo":"16","Nombre":"Nombre3","Precio":"59"})

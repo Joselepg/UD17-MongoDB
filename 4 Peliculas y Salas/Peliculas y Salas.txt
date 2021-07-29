@@ -1,0 +1,17 @@
+use peliculasYSalas
+
+db.createCollection("salas")
+
+db.salas.insertOne({"Codigo":"1"})
+
+db.salas.insertOne({"Codigo":"2"})
+
+db.salas.insertOne({"Codigo":"3"})
+
+db.createCollection("peliculas")
+
+db.peliculas.insertOne({"Codigo":"1","Nombre":"Nombre1","CalificacionEdad":"12"})
+
+db.peliculas.insertOne({"Codigo":"2","Nombre":"Nombre2","CalificacionEdad":"18"})
+
+db.peliculas.insertOne({"Codigo":"3","Nombre":"Nombre","CalificacionEdad":"16"})

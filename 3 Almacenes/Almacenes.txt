@@ -1,0 +1,18 @@
+use almacenes
+
+db.createCollection("almacenes")
+
+db.almacenes.insertOne({"Codigo":"1","Lugar":"Lugar","Capacidad":"50"})
+
+db.almacenes.insertOne({"Codigo":"2","Lugar":"Lugar2","Capacidad":"55"})
+
+db.almacenes.insertOne({"Codigo":"3","Lugar":"Lugar3","Capacidad":"60"})
+
+db.createCollection("cajas")
+
+db.cajas.insertOne({"NumReferencia":"1","Contenido":"Contenido1","Lugar":"Lugar1","Capacidad":"50"})
+
+db.cajas.insertOne({"NumReferencia":"2","Contenido":"Contenido2","Lugar":"Lugar2","Capacidad":"62"})
+
+db.cajas.insertOne({"NumReferencia":"3","Contenido":"Contenido3","Lugar":"Lugar3","Capacidad":"75"})
+

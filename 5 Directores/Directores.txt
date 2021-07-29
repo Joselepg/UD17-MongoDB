@@ -1,0 +1,17 @@
+use directores
+
+db.createCollection("directores")
+
+db.directores.insertOne({"DNI":"21546895A","NomApels":"Nombre1"})
+
+db.directores.insertOne({"DNI":"21546895B","NomApels":"Nombre2"})
+
+db.directores.insertOne({"DNI":"21546895C","NomApels":"Nombre3"})
+
+db.createCollection("despachos")
+
+db.despachos.insertOne({"Numero":"2","Capacidad":"25"})
+
+db.despachos.insertOne({"Numero":"4","Capacidad":"27"})
+
+db.despachos.insertOne({"Numero":"6","Capacidad":"30"})
